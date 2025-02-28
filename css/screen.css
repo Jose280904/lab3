@@ -215,7 +215,7 @@ body {
 }
 
 form {
-    border-radius: 15px;
+    border-radius: 0;
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
     box-sizing: border-box;
     max-width: 480px;
@@ -253,7 +253,7 @@ input, textarea, select {
     color: #333;
     padding: 0.75rem;
     border: none;
-    border-radius: 10px;
+    border-radius: 0;
     width: 100%;
     font-size: 1rem;
     outline: none; 
