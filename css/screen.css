@@ -202,7 +202,49 @@ label {
   display: block;
 }
 
+/* ====Font family style ==== */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet');
+
 /* ===== LAYOUT STYLES ====== */
 
+html,
+body {
+    background-color: #F2F2F2;
+    font-family: 'Roboto', sans-serif;
+}
+
+form {
+    border-radius: 15px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    max-width: 480px;
+    margin: irem auto;
+    padding: 2.5rem 2rem;
+    background-color: #4D4D4D;
+}
+
+h1 {
+    font-size: 2.2rem;
+    text-align: left;
+    padding: 0.75rem;
+    color: #bababa;
+}
+
+label {
+    display: inline-block;
+    font-size: irem;
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+    color: #b0b0b0;
+}
+
+p {
+    font-size: irem;
+    text-align: justify;
+    margin-bottom: 1.2rem;
+    line-height: 1.6;
+    color: #C0C0C0;
+}
 
 /* ===== STATE STYLES ======= */
